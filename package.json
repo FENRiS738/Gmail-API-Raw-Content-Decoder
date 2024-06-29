@@ -1,0 +1,21 @@
+{
+  "name": "base64decode-application",
+  "version": "1.0.0",
+  "description": "To decode email' s message",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mailparser": "^3.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
